@@ -1,0 +1,7 @@
+{
+  "name": "Circular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
