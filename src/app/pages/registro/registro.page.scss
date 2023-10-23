@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@keyframes spin{
+
+    from {transform: rotateY(0deg); }
+    to { transform: rotateY(360deg);}
+    }
+    
+.spinning{
+    animation: spin 3s infinite;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2vh;
+    img{        
+        display: block;
+        height: 10vh;
+        
+    }  
+}
+
+.case{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #009f3a;
+    opacity: 0.7;
+}
+
+#link{
+    color: #009f3a;
+}

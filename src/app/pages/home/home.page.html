@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-router-outlet></ion-router-outlet>
+</ion-content>
+
+<ion-footer>
+  <ion-segment (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="casa">
+      <ion-icon id="icon" name="information-circle-outline"></ion-icon>Circular
+    </ion-segment-button>
+    <ion-segment-button value="casa2">
+      <ion-icon id="icon" name="map-outline"></ion-icon>Mapa
+    </ion-segment-button>
+    <ion-segment-button value="casa3">
+      <ion-icon id="icon" name="finger-print-outline"></ion-icon>Huella
+    </ion-segment-button>
+  </ion-segment>
+</ion-footer>

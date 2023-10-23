@@ -1,0 +1,102 @@
+.heading{
+    margin-top: 10vh;
+    text-align: center;
+    h1{
+        font-size: 2rem;
+        color: #009f3a;
+        opacity: 0.8;
+        margin-bottom: 0;
+    }
+    h2{
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: #009f3a;
+        opacity: 0.7;
+    }
+    p{
+        color: #838383;
+    }
+}
+
+
+
+@keyframes spin{
+
+    from {transform: rotateY(0deg); }
+    to { transform: rotateY(360deg);}
+    }
+    
+.spinning{
+    animation: spin 3s infinite;
+    animation-timing-function: linear;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2vh;
+    img{        
+        display: block;
+        height: 10vh;
+        
+    }  
+}
+
+.log{
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.social-login{
+    margin-top: 2%;
+    text-align: center;
+    p{
+        color: #838383;
+    }
+    ion-button{
+        width: 25%;
+        height: 10%;
+    }
+    ion-icon{
+        font-size: 1.6rem;
+    }
+}
+
+.twitter{
+    --background: #00acee;
+    margin-right: 5%;
+}
+.facebook{
+    --background: #4267b2;
+    margin-right: 5%;
+}
+.instagram{
+    --background: #4c68d7 ;
+    margin-right: 5%;
+}
+
+.email-login{
+    margin-top: 2%;
+    text-align: center;
+    p{
+        color: #838383;
+    }
+
+    .signup{
+        width: 50%;
+        height: 10%;
+        font-size: 1em;
+    }
+}
+
+#home-btn{
+    margin-top: 2%;
+    text-align: center;
+    .home{
+        width: 50%;
+        height: 10%;
+        font-size: 1em;
+    }
+}

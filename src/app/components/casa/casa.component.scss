@@ -1,0 +1,55 @@
+ion-card {
+    --background: #000;
+    --color: #9efff0;
+    opacity: 0.8;
+  }
+  
+  ion-card-title {
+    --color: #52ffe4;
+  }
+  
+  ion-card-subtitle {
+    --color: #d1fff8;
+  }
+  
+  @keyframes spin{
+  
+    from {transform: rotate(0deg); }
+    to { transform: rotate(360deg);}
+  }
+    
+  .spinning{
+    animation: spin 3s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2vh;
+    img{        
+        display: block;
+        height: 5vh;
+        
+    }  
+  }
+  
+  .buttom{
+    margin-top: 230%;
+    margin-left: 25%;
+  }
+  ion-card {
+    --background: #009f3a;
+    --color: #fff;
+    opacity: 0.7;
+  }
+  
+  ion-card-title {
+    --color: #fff;
+  }
+  
+  #logo{
+    max-width: 70%;
+    max-height: 50%;
+  }

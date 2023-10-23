@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true">
+  
+  <h1>Crea tu cuenta</h1>
+
+ <div>
+  <ion-row>
+    <ion-col>
+
+    </ion-col>
+  </ion-row>
+  <ion-card>
+    <form [formGroup]="formularioRegistro">
+      <ion-item>
+        <ion-label class="ion-text-center" position="floating">Usuario</ion-label>
+        <ion-input formControlName="nombre" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-center"  position="floating">Contraseña</ion-label>
+        <ion-input formControlName="password" type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-center"  position="floating">Repetir Contraseña</ion-label>
+        <ion-input formControlName="confirmacion-password" type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-center"  position="floating">Email</ion-label>
+        <ion-input formControlName="email" type="text"></ion-input>
+      </ion-item>
+    </form>
+  </ion-card>
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="registrar()" color="success" expand="block">
+        Registrarse
+      </ion-button>
+    </ion-col>
+  </ion-row>
+ </div>
+  
+</ion-content>

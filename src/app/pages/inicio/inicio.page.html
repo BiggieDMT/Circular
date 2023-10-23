@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true">
+    
+  <div class="heading">
+    <h1>Bienvenido</h1>
+    <h2>a recyclers</h2>
+    <p>Ingrese a su cuenta o cree una nueva</p>
+  </div>
+
+  <div class="image">
+    <img src="https://www.svgrepo.com/show/29687/ecology.svg" class="spinning" alt="welcome">
+  </div>
+  
+  <div class="social-login">
+    <p>Ingresar con una red social</p>
+    <div class="links">
+      <ion-button class="twitter" routerLink="/login"><ion-icon name="logo-twitter"></ion-icon></ion-button>
+      <ion-button class="facebook" routerLink="/login"><ion-icon name="logo-facebook"></ion-icon></ion-button>
+      <ion-button class="instagram" routerLink="/login"><ion-icon name="logo-instagram"></ion-icon></ion-button>
+    </div>
+  </div>
+
+  <div class="email-login">
+    <p>Ingresar con correo</p>
+    <ion-button routerLink="/login" class="signup" >Ingresar</ion-button>
+  </div>
+  
+  <div id="home-btn">
+    <ion-button routerLink="/registro" class="home">
+      Registrarse
+    </ion-button>
+  </div>
+  
+</ion-content>
